@@ -4,6 +4,10 @@ The Project aim is to show the popularity in % of github users in melbourne base
 
 In order to find the solution i needed the data, Initially i faced so many problems while scraping the data, as it is not allowing to scrap enough users, for that i needed to use selenium webdriver and scraped data and coded in python. 
 
+The webscraping coding is done is following file:
+
+web_scrap.ipynb
+
 I could able to get the following details of 1000 users from all the available pages of Melbourne github users:
 
 1.user's link
