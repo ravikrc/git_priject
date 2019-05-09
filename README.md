@@ -4,26 +4,25 @@
 
 # Installing Anaconda to use the jupyter notebook:
 
-# method 1: running the project from scratch by scraping data
+## method 1: running the project from scratch by scraping data
 
 To the run the code we need jupyter notebook, to get the jupyter notebook, we need to install anaconda, 
 
-# Here are the instructions to follow to install anaconda on windows:
+## Here are the instructions to follow to install anaconda on windows:
 
 https://docs.anaconda.com/anaconda/install/windows/
 
-# Here are the instructions to follow to install anaconda on mac:
+##  Here are the instructions to follow to install anaconda on mac:
 
 https://docs.anaconda.com/anaconda/install/mac-os/
 
-After installing the Anaconda, you will see a jupyter notebook in the page, press launch tab , it will open displaying the locations of your computer.
+After installing the Anaconda, you will see a jupyter notebook, press launch tab , it will display the locations of your computer.
 
-Before running the code TYPE pip install selenium in command prompt, that will install selenium in to your computer.
+Before running the code TYPE pip install selenium in command prompt, that will install selenium on to your computer.
 
-Now download files  git_melbourne.ipynb, web_scrap.ipynb.
+Now download files  git_melbourne.ipynb, web_scrap.ipynb. from my repo.
 
-Open web_scrap.ipynb, from jupyter nortebook, you will the prewritten code to execute, now go to chromebrowser and type chrome driver for selenium install latest chro driver as per your computer, here is the location http://chromedriver.chromium.org/downloads, store this chromedriver in any of the location and copy that path and paste in
-in both the lines of code in colons where is mention #set chromedriver path 
+Open web_scrap.ipynb, from jupyter notebook, you will see the prewritten code to execute, now go to google chromebrowser and type chromedriver for selenium, install latest chromedriver as per your computer requirements, here is the location http://chromedriver.chromium.org/downloads, store this chromedriver in any of the location and copy that path and paste it in both the lines of code in colons where is mention #set chromedriver path 
 
 Exapmle:
 
@@ -35,12 +34,12 @@ sub_driver = webdriver.Chrome(options=options, executable_path=r'\Users\ravichan
 
 driver = webdriver.Chrome(options=options, executable_path=r'\Users\ravichandrachilupuri\Downloads\chromedriver')
 
-After completing the steps, press run tab, which will start the scraping of data. the data will be scraped and file named with user_details will be stored in the same location where the scraping data is.(ex: user details.csv)
+After completing the steps, press run tab, it will start scraping the data. the data will be scraped and stored in a file named with user_details and that will be stored in the same location where the scraping data is done(ex: user details.csv)
 
 Now open the git_melbourne.ipynb, which is in same location copy and paste the file name in second line of the code:
 
 ex:
-# read the userdetails file
+read the userdetails file
 df = pd.read_csv('user_details.csv')
 
 At the end copy and paste the desired link of the user in colons, next to df1.loc and run the code:
@@ -65,7 +64,7 @@ Download the user_details.csv and store in the same location where you stored gi
 Now open the git_melbourne.ipynb, which is in same location copy and paste the file name in second line of the code:
 
 ex:
-# read the userdetails file
+#read the userdetails file
 df = pd.read_csv('user_details.csv')
 
 At the end copy and paste the desired link of the user in colons, next to df1.loc and run the code:
